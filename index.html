@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Sonsuz Rota </title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#" class="logo">Sonsuz<span>Rota</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Anasayfa</a></li>
+      <li><a href="#service">Hizmetler</a></li>
+      <li><a href="#destination">Rotalar</a></li>
+      <li><a href="#package">Paketler</a></li>
+      <li><a href="#client">Değerlendirmeler</a></li>
+    </ul>
+  </nav>
+  <header class="header" id="home">
+    <div class="section__container header__container">
+      <h1>UNUTULMAZ BİR MACERA İÇİN <br /><span>ROTANI BELİRLE</span></h1>
+      <p>Sırt çantanı al ve bize katıl</p>
+      <form action="/">
+        <div class="input__group">
+          <span><i class="ri-map-2-fill"></i></span>
+          <input type="text" placeholder="Nereye?" />
+        </div>
+        <div class="input__group">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          <input type="text" placeholder="Konum Seç" />
+        </div>
+        <div class="input__group">
+          <span><i class="ri-list-ordered-2"></i></span>
+          <input type="text" placeholder="Tur Tipi" />
+        </div>
+        <div class="input__group">
+          <button class="btn">Ara</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <section class="section__container feature__container" id="service">
+    <div class="feature__card">
+      <img src="assets/feature-1.png" alt="feature" />
+      <div>
+        <h4>En iyi Rotalar</h4>
+        <p>Dünyanın dört bir yanındaki nefes kesici yerleri keşfedin.</p>
+      </div>
+    </div>
+    <div class="feature__card">
+      <img src="assets/feature-2.png" alt="feature" />
+      <div>
+        <h4>En İyi Fiyat Garantisi</h4>
+        <p>Rezervasyon yaptığınız her seyahatte rakipsiz fiyatların keyfini çıkarın.</p>
+      </div>
+    </div>
+    <div class="feature__card">
+      <img src="assets/feature-3.png" alt="feature" />
+      <div>
+        <h4>Anında Rezervasyon</h4>
+        <p>Hayalinizdeki tatili sadece bir tıkla güvence altına alın.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="destination" id="destination">
+    <div class="section__container destination__container">
+      <h2 class="section__header">En iyi Rotalar</h2>
+      <p class="section__description">
+        Yeryüzünün nefes kesici güzelliklerini keşfeymeye hazır olun.
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="destination__content">Butan</div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="destination__content">Japonya</div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="destination__content">Nepal</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discount">
+    <div class="section__container discount__container">
+      <h2>
+        Yazdan önce bize katılarak<br /><span>%60'a varan indirim kazanın!</span>
+      </h2>
+      <div class="discount__btn">
+        <button class="btn">Bize Katıl</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container package__container" id="package">
+    <h2 class="section__header">Öne Çıkan Paketler</h2>
+    <p class="section__description">
+      Sizin için mükemmel olan seyahati bulmanıza yardımcı olacağız!
+    </p>
+    <div class="package__grid">
+      <div class="package__card">
+        <img src="assets/package-1.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Tayland Şehir Turu</h4>
+          <p>
+            Tayland'ın canlı kültürünü ve çarpıcı manzaralarını keşfedin.
+
+          </p>
+          <div>
+            <button class="btn">Rezervasyon Yap</button>
+            <h3>25000 ₺</h3>
+          </div>
+        </div>
+      </div>
+      <div class="package__card">
+        <img src="assets/package-2.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Laos Şehir Turu</h4>
+          <p>
+            Kendinizi Laos'un zengin kültürüne ve çarpıcı manzaralarına bırakın.
+          </p>
+          <div>
+            <button class="btn">Rezervasyon Yap</button>
+            <h3>15000 ₺</h3>
+          </div>
+        </div>
+      </div>
+      <div class="package__card">
+        <img src="assets/package-3.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Singapur Şehir Turu</h4>
+          <p>
+            Kültür, mutfak ve son teknoloji mimarinin canlı karışımını deneyimleyin.
+          </p>
+          <div>
+            <button class="btn">Rezervasyon Yap</button>
+            <h3>32000 ₺</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container client__container" id="client">
+    <h2 class="section__header">Müşteri Yorumları</h2>
+    <p class="section__description">
+      Bizimle tatil rezervasyonu yapan birçok mutlu müşterimiz var
+    </p>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-1.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Anında rezervasyon özelliği oyunun kurallarını değiştiriyor. Hayalimdeki Bali tatilini dakikalar içinde
+              ayarladım!
+            </p>
+            <h4>Burak Aydın</h4>
+            <h5>Yazılım Mühendisi</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-2.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Sonsuz Rota tatil planlamamı zahmetsiz ve keyifli hale getirdi. En iyi fiyat garantisi gerçekten
+              mutlu etti!
+            </p>
+            <h4>Selma Ayhan</h4>
+            <h5>Öğretmen</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-3.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Sonsuz Rota, harika fiyatlar ve rakipsiz bir kombinasyon sunuyor
+              müşteri hizmetleri mükemmel. Şiddetle tavsiye ediyorum!
+            </p>
+            <h4>Mehmet Arslan</h4>
+            <h5>Doktor</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-4.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Sonsuz Rota ile rezervasyon yapmak çok kolaydı. Kullanıcı dostu
+              arayüzü ve anında onay bana çok zaman kazandırdı.
+            </p>
+            <h4>Merve Bulut</h4>
+            <h5>Fotoğraf Sanatçısı</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-5.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Rezervasyondan seyahate kadar her adım sorunsuzdu. Sonsuz Rota
+              gerçekten seyahat hayallerini gerçeğe dönüştürüyor!
+            </p>
+            <h4>Murat Coşkun</h4>
+            <h5>Muhasebeci</h5>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="section__container subscribe__container">
+      <h2>Güncellemeler için bültenimize abone olun</h2>
+      <div>
+        <p>En iyi tavsiyeleriniz için. Lütfen bize abone olun.</p>
+        <form action="/">
+          <input type="text" placeholder="Enter Your Email Here" />
+          <button class="btn">Abone Ol</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#" class="logo">Sonsuz<span>Rota</span></a>
+        </div>
+        <p>
+          Dünyanın en iyi gezilerini keşfedin, rakipsiz fiyatların tadını çıkarın ve
+          mükemmel kaçamağınız için hemen rezervasyon yaptırın.
+        </p>
+        <h4>BİZİMLE İLETİŞİME GEÇİN</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-google-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>HIZLI LİNKLER</h4>
+        <ul class="footer__links">
+          <li><a href="#">Anasayfa</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">Bloglar</a></li>
+          <li><a href="#">Görüşleriniz</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Rotalar</h4>
+        <ul class="footer__links">
+          <li><a href="#">Çin</a></li>
+          <li><a href="#">Venezuella</a></li>
+          <li><a href="#">Brezilya</a></li>
+          <li><a href="#">Avustralya</a></li>
+          <li><a href="#">Londra</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Aktivitelerimiz</h4>
+        <ul class="footer__links">
+          <li><a href="#">Yürüyüş</a></li>
+          <li><a href="#">Dağ Tırmanışı</a></li>
+          <li><a href="#">Bisiklet Sürmek</a></li>
+          <li><a href="#">Nehir Raftingi</a></li>
+          <li><a href="#">Kültürel Turlar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Sonsuz Rota © 2025 Telif Hakkı. Tüm hakları saklıdır.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
