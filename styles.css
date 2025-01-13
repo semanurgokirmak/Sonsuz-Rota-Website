@@ -245,6 +245,11 @@ nav {
   overflow: hidden;
   background-color: #e9e3d5;
 }
+.destination img{
+  width: 100%;       /* Genişliği kartın genişliğine göre ayarla */
+  height: 500px;     /* Sabit bir yükseklik belirle */
+  object-fit: cover; 
+}
 
 .destination::before {
   position: absolute;
@@ -325,6 +330,7 @@ nav {
 
 .package__card {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  object-fit: cover;
 }
 
 .package__card__details {
@@ -337,7 +343,11 @@ nav {
   font-weight: 600;
   color: var(--text-dark);
 }
-
+.package__card img {
+  width: 100%;       /* Genişliği kartın genişliğine göre ayarla */
+  height: 400px;     /* Sabit bir yükseklik belirle */
+  object-fit: cover; /* Görseli, belirlenen boyutlara uydur */
+}
 .package__card__details p {
   margin-bottom: 2rem;
   color: var(--text-light);
